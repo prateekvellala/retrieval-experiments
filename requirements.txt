@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+openai
+tiktoken
+anthropic
+numba
+cohere
+chonkie
+tenacity
+python-dotenv

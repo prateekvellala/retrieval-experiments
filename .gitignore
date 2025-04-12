@@ -1,4 +1,4 @@
 .env
 .venv/
-users/
+sparse/users/
 **__pycache__/

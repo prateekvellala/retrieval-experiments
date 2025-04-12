@@ -1,3 +1,5 @@
+# A very fast, cheap, and performant sparse retrieval system.
+
 import os
 import time
 import pickle
@@ -229,6 +231,6 @@ async def test(user: str, files: list[str], query: str) -> None:
 
 if __name__ == "__main__":
     user = "test"
-    files = ["book1.txt", "book2.txt"] # ~1M tokens
+    files = ["../data/book1.txt", "../data/book2.txt"] # ~1M tokens
     query = ""
     asyncio.run(test(user=user, files=files, query=query))
